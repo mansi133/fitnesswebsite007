@@ -1,0 +1,55 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FITNESS REGISTRATION FORM</title>
+<link rel="stylesheet" href="reg.css">
+</head>
+<script>  
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.password.value;  
+  
+if (name==null || name==""){  
+  alert("Name can't be blank");  
+  return false;  
+}
+else if(password.length==6){  
+  alert("Password must be at least 6 characters long.");  
+  return false;  
+  }  
+}  
+</script>  
+<body>  
+  <fieldset>
+<form name="myform" method="post" action="Yog Asan1.html">
+<table  cellpadding="20" cellspacing="10" border="2">
+<h1>Register Form For Fitness Website</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+    <tr>
+        <td>Name:</td>                                         
+        <td><input  type="text" name="name" placeholder="****your name please****" required></td>
+    </tr>
+    <tr>
+        <td>Password:</td>                                         
+        <td><input  type="password" name="name" pattern=".{8,}"
+          placeholder="at least 8 characters or more" required>
+        </td>
+    </tr>
+ <td>Email</td>
+        <td> <input type="text" placeholder="------------------@gmail.com"  
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"name="email"  required></td>
+    </tr>
+    <tr>
+     <tr>
+    <td>Date Of Birth</td>
+    <td><input type="Date" name="DOB" required></td><br>
+    </tr>
+  <tr>
+    <td style="background-image:url('bk.png');"><input type="submit"onsubmit="return validateform()"value="register"></td>
+    
+    </tr>
+</fieldset>
+</form>  
+</body>
+</html>
