@@ -1,0 +1,172 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+        margin:15px;
+        padding:10px;
+        position:relative;
+        background-color:white;
+    }
+
+
+  header
+  {
+      background-color:white;
+       padding:22px;
+       background-image:url("group.jpg");
+       background-image:100%;
+   }
+       nav>a{
+                display:inline-block;
+                padding:19px;
+                margin:2px;
+                text-decoration:none;
+                background-color:transparent;
+                border-width: 10px 3px;
+                color:#000000;
+                border-radius:25px;
+                width:15%;
+                height:5px; 
+                text-align:center;
+                font-weight:bold;
+                font-size:21px;
+            }
+
+a:hover{
+  
+  background-color:white;
+   color:black;
+}
+h1{
+	color:white;
+	text-align:center;
+}
+#yog{
+
+	color:white;
+	font-size:20px;
+
+}
+
+div {
+  columns: 100px 3;
+  border:solid 5px;
+ border-color:#852e55 #852e55 #03fcd3#03fcd3;
+
+
+}
+
+
+h3{
+	margin:0.1px;
+	padding:2px;
+	font-transform:uppercase;
+	font-size:30px;
+
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- laptop ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+
+}
+
+/* ----------- Galaxy S6 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
+@media only screen   
+and (min-width: 1370px)  
+and (max-width: 1605px)  
+{ /* STYLES GO HERE */} 
+
